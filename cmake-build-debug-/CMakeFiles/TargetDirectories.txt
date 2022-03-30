@@ -1,0 +1,3 @@
+/tmp/tmp.vSOB1NO5WA/cmake-build-debug-/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.vSOB1NO5WA/cmake-build-debug-/CMakeFiles/send_sntp_test.dir
+/tmp/tmp.vSOB1NO5WA/cmake-build-debug-/CMakeFiles/edit_cache.dir
