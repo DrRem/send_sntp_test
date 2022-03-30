@@ -3,4 +3,4 @@ project(send_sntp_test C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(send_sntp_test main.c)
+add_executable(send_sntp_test main.c h264.h)
