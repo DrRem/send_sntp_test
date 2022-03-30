@@ -29,10 +29,10 @@ int main() {
         rprtpData = (PRTPDATA_RETURN*)&recvbuf[12];
         timestamp4 = tv.tv_sec*1000000 + tv.tv_usec - Timestamp_parameter;
         printf("包序号：%u\n",rprtpData->send_Index);
-        printf("时间戳1：%u\n",rprtpData->send_Time);
-        printf("时间戳2：%u\n",rprtpData->receive_Time);
-        printf("时间戳3：%u\n",rprtpData->receive_resend_Time);
-        printf("时间戳4：%u\n",timestamp4);
+//        printf("时间戳1：%u\n",rprtpData->send_Time);
+//        printf("时间戳2：%u\n",rprtpData->receive_Time);
+//        printf("时间戳3：%u\n",rprtpData->receive_resend_Time);
+//        printf("时间戳4：%u\n",timestamp4);
         delay = rprtpData->receive_Time - rprtpData->send_Time + timestamp4 - rprtpData->receive_resend_Time;
         printf("本次测得SNTP时延(ms)：%f\n",(double)delay/2000);
     }
