@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/tmp/tmp.vSOB1NO5WA/h264.h">
+			<Option target="send_sntp_test"/>
+		</Unit>
 		<Unit filename="/tmp/tmp.vSOB1NO5WA/main.c">
 			<Option target="send_sntp_test"/>
 		</Unit>
